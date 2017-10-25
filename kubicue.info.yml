@@ -6,10 +6,8 @@ libraries:
   - kubicue/global-css
   - kubicue/global-js
 stylesheets-remove:
-  - core/assets/vendor/normalize-css/normalize.css
-  - core/modules/system/css/system.module.css
-  - core/modules/system/css/system.theme.css
-  - core/modules/views/css/views.module.css
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
 
 regions:
   content: 'Main Content'
