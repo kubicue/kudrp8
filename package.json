@@ -1,0 +1,19 @@
+{
+  "name": "kubicue",
+  "version": "1.0.0",
+  "description": "kubicue.com microsite build on Drupal 8.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubicue/kudrp8.git"
+  },
+  "author": "Jonathan Figueroa Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubicue/kudrp8/issues"
+  },
+  "homepage": "https://github.com/kubicue/kudrp8#readme"
+}
