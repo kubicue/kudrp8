@@ -512,4 +512,18 @@ cf:after {
   clear: both;
 }
 
+/* regions styles */
+/* line 1, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_footer.scss */
+footer {
+  padding: 1.6rem;
+  background: black;
+  color: white;
+}
+
+/* line 5, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_footer.scss */
+footer a {
+  color: gold;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=../css/style.map */
