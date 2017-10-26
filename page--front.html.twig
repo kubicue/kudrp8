@@ -1,16 +1,16 @@
-<header class="main-header" role="banner">
-    <div class="container">
+<header class="cf" role="banner">
+    <div class="wrapper_wide">
         {{ page.header }}
     </div>
 </header>
 
-<div class="container">
+<div class="wrapper">
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-content">
+    <div class="wrapper_skinny">
       {{ page.content }}
-    </div>{# /.layout-content #}
+    </div>{# /.wrapper_skinny #}
 
   </main>
 
@@ -20,4 +20,4 @@
     </footer>
   {% endif %}
 
-</div>{# /.layout-container #}
+</div>{# /.wrapper #}
