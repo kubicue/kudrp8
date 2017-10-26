@@ -5,19 +5,19 @@
 </header>
 
 <div class="wrapper">
-  <main role="main">
+  <section role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="wrapper_skinny">
+    <div class="wrapper">
       {{ page.content }}
-    </div>{# /.wrapper_skinny #}
+    </div>{# /.wrapper #}
 
-  </main>
+  </section>
 
-  {% if page.footer %}
+  </div>{# /.wrapper #}
+
+{% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endif %}
-
-</div>{# /.wrapper #}
