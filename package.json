@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/kubicue/kudrp8/issues"
   },
-  "homepage": "https://github.com/kubicue/kudrp8#readme"
+  "homepage": "https://github.com/kubicue/kudrp8#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^5.0.1"
+  }
 }
