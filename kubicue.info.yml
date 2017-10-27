@@ -13,3 +13,5 @@ regions:
   content: 'Main Content'
   header: 'Main Header'
   footer: 'Footer'
+  main_navigation: 'Main Navigation'
+  brand: 'Site Branding'

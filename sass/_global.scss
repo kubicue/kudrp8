@@ -1,25 +1,35 @@
 body {
      background:#f0f1f1;
-     font-family: 'Lato', sans-serif;
+     font-family: 'Open Sans', sans-serif;
      color: #000;
 }
+.container {
+  display: flex; /* or inline-flex */
+}
 .wrapper_wide {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .wrapper {
-   width: 80%;
-   margin: 0 auto;
-  }
-  .wrapper_skinny {
-   width: 60%;
-   margin: 0 auto;
-  }
-  .cf:before, cf:after {
-   content: " ";
-   display: table;
-  }
-  cf:after {
-   clear: both;
-  }
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper_skinny {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cf:before, cf:after {
+  content: " ";
+  display: table;
+}
+
+cf:after {
+  clear: both;
+}
+img {
+  width: 100%;
+}
   

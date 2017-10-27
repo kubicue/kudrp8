@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /* line 12, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_normalized.scss */
 html {
   line-height: 1.15;
@@ -479,40 +479,104 @@ template {
 /* line 1, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
 body {
   background: #f0f1f1;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #000;
 }
 
 /* line 6, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
+.container {
+  display: flex;
+  /* or inline-flex */
+}
+
+/* line 9, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
 .wrapper_wide {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 10, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
+/* line 14, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
 .wrapper {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 14, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
+/* line 19, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
 .wrapper_skinny {
   width: 60%;
   margin: 0 auto;
 }
 
-/* line 18, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
+/* line 24, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
 .cf:before, cf:after {
   content: " ";
   display: table;
 }
 
-/* line 22, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
+/* line 29, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
 cf:after {
   clear: both;
 }
 
+/* line 32, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_global.scss */
+img {
+  width: 100%;
+}
+
 /* regions styles */
+/* line 1, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header {
+  padding: 0.9rem;
+  background: #fff9f7;
+  color: black;
+}
+
+/* line 5, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 9, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header .branding {
+  max-width: 30%;
+  display: block;
+  margin: 0;
+  float: left;
+  text-transform: uppercase;
+}
+
+/* line 16, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header nav {
+  float: right;
+}
+
+/* line 17, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header .main-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 20, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header .main-navigation li {
+  text-decoration: none;
+}
+
+/* line 22, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_header.scss */
+header .main-navigation a {
+  color: gold;
+  font-weight: 600;
+  display: block;
+}
+
+/* line 1, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_content.scss */
+.board {
+  background: orangered;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
 /* line 1, /Applications/MAMP/htdocs/workspace/dplocal/themes/custom/kubicue/sass/_footer.scss */
 footer {
   padding: 1.6rem;

@@ -1,21 +1,20 @@
-<header class="cf" role="banner">
-    <div class="wrapper_wide">
-        {{ page.header }}
-    </div>
+<header class="container main-header" role="banner">
+      {{ page.header }}
+        <a class="branding">
+         {{page.brand}}
+        </a>
+    
+   <div class="main-navigation">
+    {{ page.main_navigation}}
+   </div> 
+
 </header>
-
-<div class="wrapper">
-  <section class="cf" role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="wrapper">
+  <div class="board">
+  <section class="container wrapper" role="main">
       {{ page.content }}
-    </div>{# /.wrapper #}
-
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
   </section>
-
-  </div>{# /.wrapper #}
-
+  </div>
 {% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}
