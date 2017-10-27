@@ -1,14 +1,4 @@
-<header class="container main-header" role="banner">
-      {{ page.header }}
-        <a class="branding">
-         {{page.brand}}
-        </a>
-    
-   <div class="main-navigation">
-    {{ page.main_navigation}}
-   </div> 
-
-</header>
+{% include directory ~ '/partials/main--header.html.twig' %}
   <div class="board">
   <section class="container wrapper" role="main">
       {{ page.content }}
